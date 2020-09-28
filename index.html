@@ -4,6 +4,13 @@
   <title>Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--jQuery-->
+   <script src="js/lib/jquery-2.1.4.js"></script>
+   <!--jQuery Mobile-->
+   <script src="js/lib/jquery.mobile-1.4.5.js"></script>
+   <!--jQuery Validation-->
+   <script src="js/lib/jquery.validate.js"></script>
+
   <link rel="stylesheet" href="myportfolio.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -31,17 +38,17 @@
         <li><a href="#pageContact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="mailto:hjassal1597@conestogac.on.ca"> Email</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>Hargun Jassal</h1>      
-    <h2>Portfolio</h2>
-    <p style="font-family: Comic Sans MS;">Each drop counts in a fruitful carrier...</p>
+<div class="jumbotron" style="background-image: url('pics/backWallpaper.jpg'); width:100%; height:480px; color:#efeaeade;">
+  <div class="container text-center"  >
+    <h1 style="line-height: 170px;">Hargun Jassal</h1>      
+    <h2 style="line-height: 40px;">Portfolio</h2>
+    <p style="font-family: Comic Sans MS; line-height: 70px;">Each drop counts in a fruitful carrier...</p>
   </div>
 </div>
   <div id="pageHome" data-role="page">
@@ -49,14 +56,14 @@
   <h3 style="font-family: cursive;">Here are some hands on:-</h3><br>
   <div class="row" style="padding:20px;">
     <div class="col-sm-3" style="width: 30%;" >
-        <p><centre>Some text..</centre></p>
-      <img src="pics/car01.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <p><centre>Hands on Graphics</centre></p>
+      <img src="pics/HandWritten(Pic).png" class="img-responsive" style="width:100%; border-radius: 20px;" alt="Image">
     </div>
     <div class="col-sm-3" style="width: 70%;">
-        <p style="font-size: 20px; padding: 20px; background-color:#c3c3c330; border-radius: 10px; border-color: rgb(163, 30, 30); border:1px solid gray;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Dignissimos nisi aspernatur illum consequuntur molestiae dolor quasi, facilis repellendus. Odio, ex explicabo.
-            Quisquam totam sapiente debitis maiores cupiditate, pariatur fugiat id iure ut ratione temporibus sunt error delectus quibusdam hic tempore autem unde, nulla officiis,
-            ullam nemo consectetur odit animi consequuntur!</p>
+        <p style="font-size: 30px; font-family: Comic Sans MS; padding: 20px; background-color:#c3c3c330; border-radius: 10px; border:1px solid rgb(163, 30, 30);">
+        One of the great piece of art portrayed, using free hand technique.
+        The filters had been used after giving multiple strokes of paint brush. Effects like Dissolve and subtract had been used.
+        </p>
     </div>
 </div>
     <div class="row" style="padding:20px; width: 100%;">
@@ -66,6 +73,10 @@
                 Quisquam totam sapiente debitis maiores cupiditate, pariatur fugiat id iure ut ratione temporibus sunt error delectus quibusdam hic tempore autem unde, nulla officiis,
                 ullam nemo consectetur odit animi consequuntur!</p>
         </div>
+
+
+
+        
         <div class="col-sm-3"> 
         <p><centre>Some text..</centre></p>
       <img src="pics/car02.jpg" class="img-responsive" style="width:100%" alt="Image">
@@ -78,7 +89,7 @@
           <img src="pics/car03.jpg" class="img-responsive" style="width:100%" alt="Image">
         </div>
         <div class="col-sm-3" style="width: 70%;">
-            <p style="font-size: 20px; padding: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          <p style="font-size: 20px; padding: 20px; background-color:#c3c3c330; border-radius: 10px; border:1px solid  rgb(163, 30, 30);">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Dignissimos nisi aspernatur illum consequuntur molestiae dolor quasi, facilis repellendus. Odio, ex explicabo.
                 Quisquam totam sapiente debitis maiores cupiditate, pariatur fugiat id iure ut ratione temporibus sunt error delectus quibusdam hic tempore autem unde, nulla officiis,
                 ullam nemo consectetur odit animi consequuntur!</p>
@@ -86,7 +97,7 @@
     </div>
         <div class="row" style="padding:20px;">
             <div class="col-sm-3" style="width: 70%;">
-                <p style="font-size: 20px; padding: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              <p style="font-size: 20px; padding: 20px; background-color:#c3c3c330; border-radius: 10px; border:1px solid  rgb(163, 30, 30);">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Dignissimos nisi aspernatur illum consequuntur molestiae dolor quasi, facilis repellendus. Odio, ex explicabo.
                     Quisquam totam sapiente debitis maiores cupiditate, pariatur fugiat id iure ut ratione temporibus sunt error delectus quibusdam hic tempore autem unde, nulla officiis,
                     ullam nemo consectetur odit animi consequuntur!</p>
@@ -99,52 +110,41 @@
   </div>
 </div><br>
 </div>
-<div class="pageAbout">
+
+  <div id="pageAbout" data-role="page">
 <center><h1>About</h1></center>
-<p></p>
+<h2>School: Conestoga College.</h2>
+<h2>Age: 20 Years.</h2>
+<h2>Experience in Field: 2 Years.</h2>
+
+
 </div>
 
-<div class="pageSkills">
+  <div id="pageSkills" data-role="page">
   <center><h1>What all can I do</h1></center>
+  <a href="pics/car01.jpg" target="#"><p>Web Basics(HTML, CSS, JavaScript, PhP)</p></a>
+  <a href="pics/aspNET-picture.PNG" target="#"><p>ASP.NET</p></a>
+  <a href="pics/collage.png" target="#"><p>JAVA</p></a>
+  <p>Game Programming</p>
+  <a href="pics/MobApplication.PNG" target="#"><p>Mobile Applications</p></a>
+  <a href="pics/HandWritten(Pic).png" target="#"><P>Graphic Designing</P></a>
 </div>
 
-<div class="pageContact">
+<div id="pageContact" data-role="page">
   <center><h1>Contact Me</h1></center>
+  <div class="socialLinks" style="width:100%; height:50px; ">
+    
+    <ul>
+    <li style="float:left; text-decoration:none; padding:10px; margin:10px; font-size:17px; font-weight:bolder;"><a href="https://www.linkedin.com/in/hargun-pal-singh-b7b640172" target="#" style="font-weight: bold;" > <img src="pics/linkedin.png" alt="LinkedIn" style="width:40px; height:40px;"> Linked In</a></li>
+    <li style="float:left; text-decoration:none; padding:10px; margin:10px; font-size:17px; font-weight:bolder;"> <a href="mailto:hjassal1597@conestogac.on.ca" style="font-weight: bold;"> <img src="pics/Gmail-logo.png" alt="Email" style="width:60px; height:40px;">Email</a></li>
+  
+</ul>
+</div>
 </div>
 
-
-<!---
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div><br><br>-->
-
-<footer class="container-fluid text-center">
-  <div class="socialLinks" style="width:100%; height:50px; background-color: blueviolet;">
-    
-      <ul>
-      <li style="float:left; text-decoration:none; padding:10px; margin:10px; font-size:17px; font-weight:bolder;">Linked In</li>
-      <li style="float:left; text-decoration:none; padding:10px; margin:10px; font-size:17px; font-weight:bolder;"> <a href="mailto:hjassal1597@conestogac.on.ca"> Email</a></li>
-    
-  </ul>
-  </div>
-  <p Style="font-size:12px; font-weight:bolder; line-height: 70px;">&Copy; 2020 - Hargun Pal Singh Jassal.</p>
+<footer class="container-fluid text-center" style="Margin-top: 20px; width:100%; height:110px;">
+ 
+  <p Style="font-size:12px; font-weight:bolder; line-height: 70px;"> &copy; 2020 - Hargun Pal Singh Jassal.</p>
 </footer>
 
 </body>
